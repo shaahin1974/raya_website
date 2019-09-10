@@ -1,0 +1,487 @@
+ @media (min-width: 1920px) {
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.header-middle-block .header-contact-info {
+	width: 33.33%;
+}
+.header-middle-block .header-contact-info-text span {
+	font-size: 13px;
+}
+.header-middle-block .header-icon {
+	margin-right: 7px;
+	margin-left: 5px;
+}
+.call-to-action-content h4 {
+	font-size: 40px;
+	max-width: 490px;
+}
+.call-to-action-contact span {
+	font-size: 26px;
+}
+.service-content-block h4 {
+	font-size: 15px;
+}
+}
+
+
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.logo a {
+	padding: 22px 0;
+}
+.header-middle-block .header-contact-info {
+	width: 45.33%;
+	float: left;
+}
+.header-middle-block .header-contact-info-text span {
+	font-size: 13px;
+}
+.header-middle-block .header-icon {
+	margin-right: 7px;
+	margin-left: 5px;
+}
+.header-middle-right-block .header-contact-info:last-child {
+	width: 25%;
+}
+.quote-btn {
+	padding: 10px 12px;
+}
+.slider-content {
+	margin-top: -110px;
+}
+.layer-1 h1 {
+	font-size: 26px;
+	line-height: 32px;
+}
+.layer-2 p {
+	font-size: 17px;
+	line-height: 24px;
+}
+.ready-btn {
+	margin-top: 5px;
+}
+.about-content-box h4 {
+	font-size: 20px;
+}
+.single-about-us h5 {
+	font-size: 12px;
+}
+.single-service {
+	padding: 10px 8px;
+}
+.service-content-block h4 {
+	font-size: 15px;
+}
+.review-block {
+	margin-top: 50px;
+}
+.counter_text > h5 {
+	font-size: 14px;
+}
+.call-to-action-content h4{
+	font-size:40px;
+}
+.header-navigation-area-2 .logo a {
+	padding: 9px 0;
+}
+.topbar-section.top-bar-2 .top-bar-right ul li a {
+	margin: 8px 1px;
+}
+.topbar-section.top-bar-2 .top-bar-left ul li a, .topbar-section.topbar-3 .top-bar-left ul li a {
+	margin-right: 6px;
+}
+.header-navigation-area-2 .menu-main ul.navbar-nav li a {
+	padding: 22px 5px;
+}
+.intro-section-2 .slider-content {
+	margin-top: -60px;
+}
+.header-navigation-area-2 .menu-main ul.nav li ul.sub-inner-menu, .header-navigation-area-3 .menu-main ul.nav li ul.sub-inner-menu {
+	left: -30px;
+}
+.header-navigation-area-3 .menu-main ul.navbar-nav li a {
+	padding: 40px 5px;
+}
+.header-navigation-area-3.stick .menu-main ul.navbar-nav li a {
+	padding: 24px 5px;
+}
+.header-navigation-area-3.stick .logo a {
+	padding: 5px 0;
+}
+.feature-text h4 {
+	font-size: 16px;
+}
+.feature-text p {
+	font-size: 14px;
+}
+.single-item-member {
+	padding: 10px;
+}
+.table-list {
+	margin-bottom: 30px;
+}
+.left-navigation ul li a {
+	font-size: 13px;
+}
+.down-btn {
+	font-size: 12px;
+}
+.support-sidebar-text h4 {
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+.support-sidebar-text a {
+	font-size: 16px;
+}
+.support-sidebar-text p {
+	font-size: 15px;
+	line-height: 24px;
+}
+.mar-row {
+	margin-top: 30px;
+}
+.mar-row .single-page-well {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.project-description h4 {
+	font-size: 15px;
+}
+.project-description span {
+	font-size: 13px;
+}
+.project-column-4 .project-single-item {
+	width: 33.34%;
+}
+.project-details-box h3 {
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.project-details-box p, .project-details-box .marker-list li {
+	font-size: 14px;
+}
+.contact-heading h3 {
+	font-size: 24px;
+}
+.contact-page-area .single-contact-item a i {
+	margin-right: 15px;
+}
+.contact-page-area .contact-box {
+	padding: 15px 5px;
+}
+.single-contact-item span {
+	color: #fff;
+	font-size: 12px;
+}
+.tab-menu-nav {
+	margin-top: 30px;
+}
+.project-four-column .project-single-item {
+	float: left;
+	width: 33.33%;
+}
+.project-details-box h4 {
+	font-size: 20px;
+}
+.project-details-box {
+	margin-bottom: 30px;
+}
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {
+	width: 300px
+}
+.logo {
+	height: inherit;
+	right: 0;
+	padding: 0;
+	position: absolute;
+	top: 8px;
+	z-index: 999999;
+	max-width: 150px;
+}
+.logo a {
+	padding: 0px;
+}
+.pagess::after {
+	display: none;
+}
+.slider-content, .intro-section-2 .slider-content {
+	margin-top: -90px;
+}
+.layer-1 {
+	margin: 5px 0;
+}
+.layer-1 h1 span {
+	font-size: 28px !important;
+}
+.layer-1 h1.title2 {
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.layer-2 p {
+	font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 20px;
+}
+.ready-btn.right-btn {
+	margin-left: 5px;
+}
+.ready-btn {
+	margin-top: 0px;
+	padding: 8px 20px 8px 5px;
+	width: 128px;
+}
+.intro-section {
+	width: 100%;
+	height: auto;
+	min-height: 220px;
+}
+.intro-content-box, .slider-images img {
+	width: 100%;
+	height: 100%;
+	min-height: 220px;
+}
+.welcome-services {
+	margin: 10px 0px;
+}
+.section-title h3 {
+	font-size: 24px;
+}
+.about-us-image {
+	margin-bottom: 30px;
+}
+.about-content-box h4 {
+	font-size: 18px;
+}
+.single-about-us {
+	width: 100%;
+	float: none;
+	margin-right: 0%;
+	margin-top: 20px;
+}
+.single-services-item .service-content-block h4 {
+	font-size: 16px;
+}
+.single-client {
+	width: 50%;
+}
+.review-block {
+	margin-top: 50px;
+}
+.testimonial-carousel-slider.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, .testimonial-carousel-slider.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+	top: -13%;
+}
+.counter-inner h3 {
+	font-size: 20px;
+	line-height: 30px;
+}
+.counter_text {
+	float: none;
+	width: 98% !important;
+	margin-bottom: 30px;
+}
+.counter_text span {
+	font-size: 28px;
+}
+.project-single-item {
+	width: 100% !important;
+	float: none;
+}
+.service-content-block h4 {
+	font-size: 14px;
+}
+.project-list-menu li a {
+	margin: 0 3px;
+}
+.footer-content {
+	margin-bottom: 40px;
+}
+.sub-head h4 {
+	font-size: 23px;
+}
+.call-to-action-content h4 {
+	font-size: 20px;
+}
+.call-to-action-contact span {
+	font-size: 15px;
+	margin-right: 10px;
+}
+.call-to-action-contact span i {
+	margin-right: 6px;
+}
+.cta-btn {
+	margin-top: 20px;
+}
+.copyright {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.header-style-2 {
+	position: static;
+}
+.tab-menu-nav {
+	margin-top: 30px;
+}
+.tab-menu-nav ul.nav li a {
+	padding: 10px 3px;
+	margin-right: 3px;
+	width: 85px;
+	font-size: 12px;
+}
+.testimonial-carousel-slider.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, .testimonial-carousel-slider.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+	display: none !important;
+}
+.breadcrumb .section-title h3 {
+	font-size: 22px;
+}
+.single-feature, .single-item-member, .table-list {
+	margin: 15px 0px;
+}
+.feature-text h4 {
+	font-size: 17px;
+}
+.video-about-inner {
+	margin-bottom: 30px;
+}
+.team-page-inner-area .single-item-member {
+	margin-top: 15px;
+}
+.error-bot {
+	font-size: 16px;
+}
+.error-easy-text {
+	font-size: 20px;
+}
+.high-text {
+	font-size: 110px;
+	line-height: 110px;
+}
+.single-page-well h3 {
+	font-size: 22px;
+}
+.single-page-well h4 {
+	font-size: 18px;
+	margin-top: 15px;
+}
+.marker-list li {
+	font-size: 14px;
+}
+.project-details-box h3 {
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 20px;
+}
+.project-social li {
+	margin: 5px;
+}
+.project-info {
+	padding: 30px 10px;
+}
+.project-info h3 {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.project-name ul li {
+	font-size: 15px;
+}
+.project-image img {
+	margin: 10px 0px;
+}
+.project-related .project-single-item {
+	margin: 15px 0px;
+}
+.left-side-head-blog {
+	margin-top: 30px;
+}
+.contact-box {
+	background: #333;
+	padding: 20px 5px;
+	margin: 10px 0px;
+}
+.contact-heading h3 {
+	font-size: 24px;
+}
+.contact-heading p {
+	font-size: 15px;
+}
+.project-details-box h4 {
+	font-size: 22px;
+	line-height: 30px;
+}
+.contact-page-area .single-contact-item a i {
+	margin-right: 15px;
+}
+.sub-title::after {
+	width: 90%;
+}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {
+	width: 450px
+}
+.slider-content {
+	margin-top: -110px;
+}
+.counter_text {
+	float: left;
+	width: 50%;
+	margin-bottom: 30px;
+}
+.counter_text span {
+	font-size: 28px;
+}
+.project-list-menu li {
+	display: inline-block;
+}
+}
+@media (max-width:480px) {
+	.slider-content {
+	margin-top: -110px;
+}
+.slider-content h1.title2 {
+	font-size: 15px;
+}
+.slider-content h1 span, .slider-content h1 .underline {
+	font-size: 32px;
+}
+.comments-list-img {
+    margin-right: 0;
+    margin-bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.comments-content-wrap{
+	margin:0px;
+	padding: 0px;
+}
+.comments-content-wrap span,
+.comments-content-wrap a.reply {
+	margin-bottom: 8px;
+}
+.comments-list ul li{
+	text-align:center;
+}
+li.threaded-comments{
+	margin-left:0px;
+}
+.contact-box{
+	padding:20px;
+}
+.contact-page-area .single-contact-item a i {
+	margin-right: 5px;
+}
+.sub-title h4 {
+	font-size: 30px;
+}
+}
