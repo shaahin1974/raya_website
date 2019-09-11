@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41014eeb-dc93-4464-a863-17f2c00accf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/raya_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/raya_website/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raya_website/local_settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/raya_website/settings.py">
+        <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1387">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="303">
+              <caret line="111" column="93" selection-start-line="111" selection-start-column="93" selection-end-line="111" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -73,11 +75,11 @@
         <option value="$PROJECT_DIR$/templates/partials/_footer.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/temp.html" />
-        <option value="$PROJECT_DIR$/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/templates/partials/_navbar.html" />
         <option value="$PROJECT_DIR$/templates/partials/_topbar.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/raya_website/settings.py" />
+        <option value="$PROJECT_DIR$/templates/pages/index.html" />
       </list>
     </option>
   </component>
@@ -103,6 +105,38 @@
               <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="raya_website" type="462c0819:PsiDirectoryNode" />
               <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="slider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,18 +201,19 @@
       <updated>1568100657657</updated>
       <workItem from="1568100659919" duration="59000" />
       <workItem from="1568101100243" duration="11051000" />
-      <workItem from="1568127170120" duration="10214000" />
+      <workItem from="1568127170120" duration="11778000" />
+      <workItem from="1568221617273" duration="1460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21324000" />
+    <option name="totallyTimeSpent" value="24348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.25716332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.260745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50076336" side_tool="true" weight="0.25358167" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -192,7 +227,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34236452" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33743843" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32881773" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -244,24 +279,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/all.css" />
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="6585" selection-start-line="6585" selection-end-line="6585" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/flexslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2176" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raya_website/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/flexslider.css" />
+    <entry file="file://$PROJECT_DIR$/raya_website/static/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/raya_website/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -282,18 +305,6 @@
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-            <element signature="n#div#1;n#!!top" />
-            <element signature="n#div#3;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -326,10 +337,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/raya_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1387">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="510">
+          <caret line="59" column="10" lean-forward="true" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/slider/s3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/static/img/slider/s4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/static/img/slider/s5.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/static/img/slider/s6.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/static/img/slider/s7.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/static/img/slider/s8.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/static/img/slider/s3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="111" column="93" selection-start-line="111" selection-start-column="93" selection-end-line="111" selection-end-column="93" />
         </state>
       </provider>
     </entry>
