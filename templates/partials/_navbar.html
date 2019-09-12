@@ -9,10 +9,10 @@
                             <ul class="nav navbar-nav">
                                 <li><a class="pagess" href="{% url 'index' %}">خانه</a>
                                 </li>
-                                <li><a class="pagess" href="{% url 'about' %}">درباره ما</a>
+                                <li><a class="pagess">درباره ما</a>
                                     <ul class="sub-inner-menu">
-                                        <li><a>درباره ما</a></li>
-                                        <li><a>تیم</a></li>
+                                        <li><a href="{% url 'about' %}">درباره ما</a></li>
+                                        <li><a href="{% url 'team' %}">تیم</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="pagess" href="#">خدمات</a>
