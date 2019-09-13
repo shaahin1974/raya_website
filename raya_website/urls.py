@@ -11,5 +11,5 @@ sitemaps = {
 urlpatterns = [
     path('', include('pages.urls')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
-    path('admin/', admin.site.urls),
+    path('djangoadmin/', admin.site.urls),
 ]
