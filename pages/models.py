@@ -8,7 +8,7 @@ class ServiceArea(models.Model):
     content = models.TextField(max_length=200)
     description = models.CharField(max_length=50)
     author = models.CharField(max_length=20)
-    publish_date = models.DateTimeField(default=datetime.now, blank=True)
-
-    def __str__(self):  # Show name as the identifying field
+    photo_main = models.ImageField(upload_to='photos/%Y/%m/%d/')
+    list_date = models.DateTimeField(default=datetime.now, blank=True)
+    def __str__(self):
         return self.title
