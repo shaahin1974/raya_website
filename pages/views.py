@@ -1,8 +1,15 @@
 from django.shortcuts import render
 
+from .models import ServiceArea
+
 
 def index(request):
-    return render(request, 'pages/index.html')
+    service_listings = ServiceArea.objects.all()
+
+    context = {
+        'service_listings': service_listings
+    }
+    return render(request, 'pages/index.html', context)
 
 
 def about(request):
