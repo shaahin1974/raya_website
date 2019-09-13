@@ -4,7 +4,7 @@ from .models import ServiceArea
 
 
 def index(request):
-    service_listings = ServiceArea.objects.all()[:3]
+    service_listings = ServiceArea.objects.filter(is_published=True)[:3]
 
     context = {
         'service_listings': service_listings
