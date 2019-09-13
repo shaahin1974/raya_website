@@ -76,20 +76,24 @@
         <div class="container">
             <div class="row">
                 <!-- single-page-well end-->
-               {% for list in service_listings %}
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="welcome-services">
-                        <div class="services-img-box"><img src="{{ list.photo_main.url }}" alt="">
-                            <div class="number"><i class="fa fa-anchor" aria-hidden="true"></i></div>
-                        </div>
-                        <div class="main-services">
-                            <div class="service-content-block">
-                                <h4>{{ list.title }}</h4>
-                                <p>{{ list.content }}</p>
-                                <a class="service-btn" href="#">بیشتر بدانید</a></div>
+                {% for list in service_listings %}
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="welcome-services">
+                            <div class="services-img-box"><img src="{{ list.photo_main.url }}" width="404" height="442"
+                                                               alt="">
+                                <div class="number"><i class="fa fa-anchor" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="main-services">
+                                <div class="service-content-block"
+                                     style="margin-left:auto; height: 300px ;overflow-y: scroll ">
+                                    <h4>{{ list.title }}</h4>
+                                    <p id="service content">{{ list.content }}
+                                    </p>
+                                    <p><a class=" service-btn" href="#">بیشتر بدانید</a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 {% endfor %}
                 <!-- single-page-well end -->
             </div>

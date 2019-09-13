@@ -1,0 +1,14 @@
+{% extends 'admin/base.html' %}
+
+{%  load static %}
+
+{% block branding %}
+<h1 id="head">
+    <img src="{% static 'img/logo/raya_logo.png' %}" height="60" width="60"
+         alt="RAYA Admin Area"  class="brand_img">   Admin Area
+</h1>
+{% endblock %}
+
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock %}
