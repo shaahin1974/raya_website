@@ -1,7 +1,7 @@
 {% load static %}
 
 <!doctype html>
-<html class="no-js" dir="rtl">
+<html class="no-js" dir="rtl" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -37,66 +37,66 @@
     <!-- modernizr css -->
     <script src="{% static 'js/modernizr-2.8.3.min.js' %}"></script>
 </head>
+
 <body>
 
-<!--- Top ----->
-{% include 'partials/_topbar.html' %}
-<!---- End Top ---->
-<!---- Nav Bar ---->
-{% include 'partials/_navbar.html' %}
+    <!--- Top ----->
+    {% include 'partials/_topbar.html' %}
+    <!---- End Top ---->
+    <!---- Nav Bar ---->
+    {% include 'partials/_navbar.html' %}
 
-<!--- Content Block --->
-{% block content %}
+    <!--- Content Block --->
+    {% block content %}
 
-{% endblock %}
-<!--- End Content Block --->
+    {% endblock %}
+    <!--- End Content Block --->
 
-<!-- Start Footer bottom Area -->
+    <!-- Start Footer bottom Area -->
 
-{% include 'partials/_footer.html' %}
+    {% include 'partials/_footer.html' %}
 
 
-<!-- jquery latest version -->
-<div>
-    <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
-    <!-- bootstrap js -->
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <!-- owl.carousel js -->
-    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
-    <!-- Counter js -->
-    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
-    <!-- waypoint js -->
-    <script src="{% static 'js/waypoints.js' %}"></script>
-    <!-- isotope js -->
-    <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
-    <!-- stellar js -->
-    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
-    <!-- magnific js -->
-    <script src="{% static 'js/magnific.min.js' %}"></script>
-    <!-- venobox js -->
-    <script src="{% static 'js/venobox.min.js' %}"></script>
-    <!-- meanmenu js -->
-    <script src="{% static 'js/jquery.meanmenu.js' %}"></script>
-    <!-- Form validator js -->
-    <script src="{% static 'js/form-validator.min.js' %}"></script>
-    <!-- plugins js -->
-    <script src="{% static 'js/plugins.js' %}"></script>
-    <!-- main js -->
-    <script src="{% static 'js/main.js' %}"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147517326-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <!-- jquery latest version -->
+    <div>
+        <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+        <!-- bootstrap js -->
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <!-- owl.carousel js -->
+        <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+        <!-- Counter js -->
+        <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+        <!-- waypoint js -->
+        <script src="{% static 'js/waypoints.js' %}"></script>
+        <!-- isotope js -->
+        <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+        <!-- stellar js -->
+        <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+        <!-- magnific js -->
+        <script src="{% static 'js/magnific.min.js' %}"></script>
+        <!-- venobox js -->
+        <script src="{% static 'js/venobox.min.js' %}"></script>
+        <!-- meanmenu js -->
+        <script src="{% static 'js/jquery.meanmenu.js' %}"></script>
+        <!-- Form validator js -->
+        <script src="{% static 'js/form-validator.min.js' %}"></script>
+        <!-- plugins js -->
+        <script src="{% static 'js/plugins.js' %}"></script>
+        <!-- main js -->
+        <script src="{% static 'js/main.js' %}"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147517326-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+            function gtag() {
+                dataLayer.push(arguments);
+            }
 
-        gtag('js', new Date());
+            gtag('js', new Date());
 
-        gtag('config', 'UA-147517326-1');
-    </script>
-
-</div>
+            gtag('config', 'UA-147517326-1');
+        </script>
+    </div>
 </body>
 </html>
