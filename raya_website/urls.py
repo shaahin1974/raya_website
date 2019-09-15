@@ -4,7 +4,8 @@ from django.contrib import admin
 from django.contrib.sitemaps.views import sitemap
 from django.urls import path, include
 
-from pages.sitemaps import StaticViewSitemap
+
+from raya_website.sitemaps import StaticViewSitemap
 
 sitemaps = {
     'static': StaticViewSitemap
@@ -13,6 +14,7 @@ sitemaps = {
 urlpatterns = [
                   path('', include('pages.urls')),
                   path('accounts/', include('accounts.urls')),
-                  path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
+                  path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
+                       name='django.contrib.sitemaps.views.sitemap'),
                   path('djangoadmin/', admin.site.urls),
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
