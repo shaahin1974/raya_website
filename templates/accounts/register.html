@@ -1,54 +1,36 @@
-{% extends 'base.html' %}
+{% load static %}
 
-{% block title %} | Register Account {% endblock %}
+<!DOCTYPE html>
+<html>
 
-{% block content %}
-    <div class="container" style="alignment: center">
-        <section id="register" class="bg-light py-5" style="alignment: center; width: 50px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 mx-auto">
-                        <div class="card">
-                            <div class="card-header bg-primary text-white">
-                                <h4>
-                                    <i class="fa fa-address-book" ></i> Register</h4>
-                            </div>
-                            <div class="card-body">
-                                <!-- Alerts -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "fonts/ionicons.min.css" %} ">
+    <link rel="stylesheet" href="{% static "css/Login-Form-Clean.css" %} ">
+    <link rel="stylesheet" href="{% static 'css/login_styles.css' %}">
+</head>
 
-                                <form action="{% url 'register' %}" method="POST">
-                                    {% csrf_token %}
-                                    <div class="form-group">
-                                        <label for="first_name">First Name</label>
-                                        <input type="text" name="first_name" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="last_name">Last Name</label>
-                                        <input type="text" name="last_name" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="username">Username</label>
-                                        <input type="text" name="username" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="email" name="email" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password2">Password</label>
-                                        <input type="password" name="password" class="form-control" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">Confirm Password</label>
-                                        <input type="password" name="password2" class="form-control" required>
-                                    </div>
-                                    <input type="submit" value="Register" class="btn btn-secondary btn-block">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<body>
+<div class="login-clean">
+    <form method="post">
+        <h2 class="sr-only">register Form</h2>
+        <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
+        <div class="form-group"><input class="form-control" type="text" name="email" placeholder="Email"></div>
+        <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password">
+        </div>
+        <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password">
+
+            <div class="form-group">
+                <button class="btn btn-primary btn-block" type="submit">Register</button>
             </div>
-        </section>
-    </div>
-{% endblock %}
+            <a href="#" class="forgot">Forgot your email or password?</a>
+    </form>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
