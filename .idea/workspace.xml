@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41014eeb-dc93-4464-a863-17f2c00accf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raya_website/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/raya_website/static/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="41014eeb-dc93-4464-a863-17f2c00accf7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/raya_website/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="1949" column="33" selection-start-line="1949" selection-start-column="33" selection-end-line="1949" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="2071" column="17" selection-start-line="2071" selection-start-column="17" selection-end-line="2071" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -287,7 +284,7 @@
       <workItem from="1568302276077" duration="38831000" />
       <workItem from="1568459439383" duration="1000" />
       <workItem from="1568483690792" duration="3924000" />
-      <workItem from="1568641764462" duration="7212000" />
+      <workItem from="1568641764462" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="Images inserted">
       <created>1568224053531</created>
@@ -485,15 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568652704013</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="footer colors changed">
+      <created>1568720397816</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1568720397816</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76738000" />
+    <option name="totallyTimeSpent" value="77017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.28151864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -555,7 +558,8 @@
     <MESSAGE value="css added" />
     <MESSAGE value="address Telephone" />
     <MESSAGE value="Slider content corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider content corrected" />
+    <MESSAGE value="footer colors changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer colors changed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/raya_website$sitemaps.coverage" NAME="sitemaps Coverage Results" MODIFIED="1568535148115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raya_website" />
@@ -876,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/raya_website/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="1949" column="33" selection-start-line="1949" selection-start-column="33" selection-end-line="1949" selection-end-column="33" />
+        <state relative-caret-position="168">
+          <caret line="2071" column="17" selection-start-line="2071" selection-start-column="17" selection-end-line="2071" selection-end-column="17" />
         </state>
       </provider>
     </entry>
