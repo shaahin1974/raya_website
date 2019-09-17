@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41014eeb-dc93-4464-a863-17f2c00accf7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raya_website/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/raya_website/static/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,29 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/accounts/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="-737">
               <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/raya_website/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="1949" column="33" selection-start-line="1949" selection-start-column="33" selection-end-line="1949" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -100,7 +88,6 @@
       <list>
         <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/templates/temp.html" />
-        <option value="$PROJECT_DIR$/templates/pages/about.html" />
         <option value="$PROJECT_DIR$/templates/pages/team.html" />
         <option value="$PROJECT_DIR$/pages/urls.py" />
         <option value="$PROJECT_DIR$/pages/sitemaps.py" />
@@ -110,7 +97,6 @@
         <option value="$PROJECT_DIR$/pages/views.py" />
         <option value="$PROJECT_DIR$/pages/admin.py" />
         <option value="$PROJECT_DIR$/raya_website/static/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/raya_website/static/css/style.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/loadImg.js" />
         <option value="$PROJECT_DIR$/user/urls.py" />
@@ -127,11 +113,13 @@
         <option value="$PROJECT_DIR$/raya_website/sitemaps.py" />
         <option value="$PROJECT_DIR$/templates/partials/_footer.html" />
         <option value="$PROJECT_DIR$/raya_website/static/css/Login-Form-Clean.css" />
-        <option value="$PROJECT_DIR$/templates/partials/_topbar.html" />
-        <option value="$PROJECT_DIR$/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/accounts/login.html" />
         <option value="$PROJECT_DIR$/templates/accounts/register.html" />
+        <option value="$PROJECT_DIR$/templates/pages/about.html" />
+        <option value="$PROJECT_DIR$/templates/partials/_topbar.html" />
+        <option value="$PROJECT_DIR$/templates/pages/index.html" />
+        <option value="$PROJECT_DIR$/raya_website/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -158,19 +146,20 @@
             <path>
               <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="raya_website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="raya_website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="raya_website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,7 +287,7 @@
       <workItem from="1568302276077" duration="38831000" />
       <workItem from="1568459439383" duration="1000" />
       <workItem from="1568483690792" duration="3924000" />
-      <workItem from="1568641764462" duration="4964000" />
+      <workItem from="1568641764462" duration="7212000" />
     </task>
     <task id="LOCAL-00001" summary="Images inserted">
       <created>1568224053531</created>
@@ -482,17 +471,31 @@
       <option name="project" value="LOCAL" />
       <updated>1568645164864</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="address Telephone">
+      <created>1568649753427</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1568649753427</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Slider content corrected">
+      <created>1568652704013</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1568652704013</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74490000" />
+    <option name="totallyTimeSpent" value="76738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.28151864" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.28151864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50076336" side_tool="true" weight="0.25358167" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -506,7 +509,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32881773" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3546798" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3546798" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32881773" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" />
@@ -550,7 +553,9 @@
     <MESSAGE value="meta tags added" />
     <MESSAGE value="login page&#10;register page&#10;login and register button" />
     <MESSAGE value="css added" />
-    <option name="LAST_COMMIT_MESSAGE" value="css added" />
+    <MESSAGE value="address Telephone" />
+    <MESSAGE value="Slider content corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider content corrected" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/raya_website$sitemaps.coverage" NAME="sitemaps Coverage Results" MODIFIED="1568535148115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raya_website" />
@@ -565,13 +570,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/raya_website/static/img/slider/s3.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7364">
-          <caret line="263" column="16" lean-forward="true" selection-start-line="263" selection-start-column="16" selection-end-line="263" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/team.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -708,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raya_website/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="202" column="19" lean-forward="true" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/loadImg.js" />
     <entry file="file://$PROJECT_DIR$/pages/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -834,31 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/_topbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raya_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="70" column="1" lean-forward="true" selection-start-line="62" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -871,8 +841,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="-283">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="54" column="113" selection-start-line="54" selection-start-column="113" selection-end-line="54" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/_topbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="58" column="82" selection-start-line="58" selection-start-column="82" selection-end-line="58" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-737">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1949" column="33" selection-start-line="1949" selection-start-column="33" selection-end-line="1949" selection-end-column="33" />
         </state>
       </provider>
     </entry>

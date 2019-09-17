@@ -1947,15 +1947,15 @@ div#preloader {
 /*----------------------------------------*/
 .footer-area {
     padding: 90px 0;
-    background-color: #000;
+    background-color: whitesmoke;
 }
 
 .footer-widget p {
-    color: #ccc;
+    color: black;
 }
 
 .footer-widget h4 {
-    color: #fff;
+    color: black;
     font-size: 22px;
     margin-bottom: 10px;
     text-transform: capitalize;
@@ -1970,7 +1970,7 @@ div#preloader {
 }
 
 .footer-widget .blog-content-box a h4 {
-    color: #777;
+    color: black;
     margin-bottom: 5px;
     line-height: 22px;
     font-size: 17px;
@@ -2023,7 +2023,7 @@ div#preloader {
 .footer-contact-info p .info {
     direction: ltr;
     display: inline-block;
-    color: #fff;
+    color: black;
 }
 
 .footer-area hr {
@@ -2069,7 +2069,7 @@ div#preloader {
 }
 
 .footer-navigation li a {
-    color: #ccc;
+    color: black;
     padding: 5px 0px;
     display: block;
     position: relative;
