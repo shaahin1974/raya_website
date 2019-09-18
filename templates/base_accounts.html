@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
 {% load static %}
-<html lang = "fa" class="no-js" dir="rtl" xmlns="http://www.w3.org/1999/html" prefix="og: http://rayagroups.ir">
+<html lang="fa" class="no-js" dir="rtl" xmlns="http://www.w3.org/1999/html" prefix="og: http://rayagroups.ir">
 <head>
-    <title> شرکت رایان اندیش یگانه آریا {% block title %}</title>{% endblock %}
+    <title>{% block title %} شرکت رایان اندیش یگانه آریا {% endblock %}</title>
     <meta name="description" content="www.rayagroups.ir">
     <meta name="keywords" content="طراحی شبکه و امنیت , طراجی وب سایت , طراحی و راه اندازی کال سنتر ">
     <meta name="robots" content="index, follow">
@@ -12,7 +12,6 @@
     <meta name="revisit-after" content="1 days">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>شرکت رایان اندیش یگانه آریا</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -43,24 +42,21 @@
 
     <!-- modernizr css -->
     <script src="{% static 'js/modernizr-2.8.3.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "fonts/ionicons.min.css" %} ">
+    <link rel="stylesheet" href="{% static "css/Login-Form-Clean.css" %} ">
+    <link rel="stylesheet" href="{% static "css/login_styles.css" %}">
 </head>
 <body>
 
 <!--- Top ----->
 {% include 'partials/_topbar.html' %}
 <!---- End Top ---->
-<!---- Nav Bar ---->
-{% include 'partials/_navbar.html' %}
 
-<!--- Content Block --->
 {% block content %}
 
 {% endblock %}
 <!--- End Content Block --->
-
-<!-- Start Footer bottom Area -->
-
-{% include 'partials/_footer.html' %}
 
 
 <!-- jquery latest version -->
