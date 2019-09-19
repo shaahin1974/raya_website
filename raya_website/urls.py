@@ -4,7 +4,6 @@ from django.contrib import admin
 from django.contrib.sitemaps.views import sitemap
 from django.urls import path, include
 
-
 from raya_website.sitemaps import StaticViewSitemap
 
 sitemaps = {
@@ -12,6 +11,7 @@ sitemaps = {
 }
 
 urlpatterns = [
+                  path('', include('contacts.urls')),
                   path('', include('pages.urls')),
                   path('accounts/', include('accounts.urls')),
                   path('sitemap.xml', sitemap, {'sitemaps': sitemaps},

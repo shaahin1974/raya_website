@@ -69,29 +69,30 @@
                                               class="contact-form">
                                             {% csrf_token %}
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="text" id="name" class="form-control"
+                                                <input type="text" name="name" class="form-control"
                                                        placeholder="نام" required data-error="نام خود را وارد کنید">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="text" id="last_name" class="form-control"
+                                                <input type="text" name="last_name" class="form-control"
                                                        placeholder="نام خانوادگی" required
                                                        data-error="نام خانوادگی خود را وارد کنید">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="email" class="email form-control" id="email"
+                                                <input type="email" class="email form-control" name="email"
                                                        placeholder="پست الکترونیک" required
                                                        data-error="پست الکترونیک خود را وارد کنید">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input type="text" class="form-control" id="phone" placeholder="تلفن"
-                                                       required data-error="شماره تلفن خود را وارد کنید">
+                                                <input type="text" class="form-control" name="phone"
+                                                       placeholder="پست الکترونیک" required
+                                                       data-error="پست الکترونیک خود را وارد کنید">
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                                <textarea id="message" rows="7" placeholder="دیدگاه"
+                                                <textarea name="message" rows="7" placeholder="دیدگاه"
                                                           class="form-control" required
                                                           data-error="دیدگاه خود را بنویسید"></textarea>
                                                 <div class="help-block with-errors"></div>
@@ -130,3 +131,9 @@
 
 {% endblock %}
 
+
+
+
+
+</body>
+</html>

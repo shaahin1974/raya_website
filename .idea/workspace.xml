@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41014eeb-dc93-4464-a863-17f2c00accf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contacts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contacts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contacts/contact_us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base_accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_accounts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raya_website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/raya_website/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raya_website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/raya_website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/_navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/_navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/temp.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,21 +30,15 @@
     <favorites_list name="raya_website" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/accounts/login.html">
+        <entry file="file://$PROJECT_DIR$/contacts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/accounts/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="186">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,6 +83,7 @@
       <find>bu</find>
       <find>footer</find>
       <find>copy</find>
+      <find>php</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -96,11 +99,19 @@
         <option value="$PROJECT_DIR$/templates/partials/_topbar.html" />
         <option value="$PROJECT_DIR$/templates/partials/_footer.html" />
         <option value="$PROJECT_DIR$/templates/pages/index.html" />
-        <option value="$PROJECT_DIR$/templates/temp.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/accounts/login.html" />
         <option value="$PROJECT_DIR$/templates/base_accounts.html" />
         <option value="$PROJECT_DIR$/templates/accounts/register.html" />
-        <option value="$PROJECT_DIR$/templates/accounts/login.html" />
+        <option value="$PROJECT_DIR$/raya_website/settings.py" />
+        <option value="$PROJECT_DIR$/contacts/urls.py" />
+        <option value="$PROJECT_DIR$/raya_website/urls.py" />
+        <option value="$PROJECT_DIR$/templates/contacts/contactus.html" />
+        <option value="$PROJECT_DIR$/templates/partials/_navbar.html" />
+        <option value="$PROJECT_DIR$/templates/temp.html" />
+        <option value="$PROJECT_DIR$/contacts/models.py" />
+        <option value="$PROJECT_DIR$/templates/contacts/contact_us.html" />
+        <option value="$PROJECT_DIR$/contacts/views.py" />
       </list>
     </option>
   </component>
@@ -124,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +146,7 @@
             <path>
               <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="raya_website" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
@@ -143,15 +155,12 @@
             </path>
             <path>
               <item name="raya_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="raya_website" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,7 +552,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2858166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2901146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -557,13 +566,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3280098" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3280098" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3295129" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Key Promoter X" order="5" />
     </layout>
@@ -639,7 +648,8 @@
     <MESSAGE value="topbar font color changed" />
     <MESSAGE value="Index page contents updated" />
     <MESSAGE value="width changed to 300px" />
-    <option name="LAST_COMMIT_MESSAGE" value="width changed to 300px" />
+    <MESSAGE value="Login and register page templates updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login and register page templates updated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/raya_website$sitemaps.coverage" NAME="sitemaps Coverage Results" MODIFIED="1568535148115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/raya_website" />
@@ -657,9 +667,6 @@
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/_navbar.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/_topbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -675,13 +682,6 @@
         <state relative-caret-position="-38" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -694,38 +694,116 @@
         <state relative-caret-position="-93" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/temp.html">
+    <entry file="file://$PROJECT_DIR$/templates/accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        <state relative-caret-position="230">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base_accounts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="899">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="84" column="10" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="84" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#1;n#footer#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="112" selection-end-line="112" />
+        <state relative-caret-position="718">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/accounts/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="270">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/accounts/login.html">
+    <entry file="file://$PROJECT_DIR$/raya_website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="310">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raya_website/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/_navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contacts/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="88" column="74" selection-start-line="88" selection-start-column="74" selection-end-line="88" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
