@@ -1,30 +1,44 @@
-{% extends 'base.html' %}
-{% load static %}
+<div>
+    <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <!-- bootstrap js -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- owl.carousel js -->
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <!-- Counter js -->
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <!-- waypoint js -->
+    <script src="{% static 'js/waypoints.js' %}"></script>
+    <!-- isotope js -->
+    <script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+    <!-- stellar js -->
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <!-- magnific js -->
+    <script src="{% static 'js/magnific.min.js' %}"></script>
+    <!-- venobox js -->
+    <script src="{% static 'js/venobox.min.js' %}"></script>
+    <!-- meanmenu js -->
+    <script src="{% static 'js/jquery.meanmenu.js' %}"></script>
+    <!-- Form validator js -->
+    <script src="{% static 'js/form-validator.min.js' %}"></script>
+    <!-- plugins js -->
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <!-- main js -->
+    <script src="{% static 'js/main.js' %}"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147517326-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-<html>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>صفحه ورود| شرکت رایان اندیش یگانه آریا </title>
+        gtag('js', new Date());
 
-</head>
-
-<body>
-<div class="login-clean">
-    <form method="post">
-        <h2 class="sr-only">Login Form</h2>
-        <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
-        <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-        <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password">
-        </div>
-        <div class="form-group">
-            <button class="btn btn-primary btn-block" type="submit">Log In</button>
-        </div>
-        <a href="#" class="forgot">Forgot your email or password?</a></form>
+        gtag('config', 'UA-147517326-1');
+    </script>
+    <a href="https://www.alexa.com/siteinfo/webnots.com">
+        <script type="text/javascript" src="https://xslt.alexa.com/site_stats/js/s/a?url=webnots.com">
+        </script>
+    </a>
 </div>
-<script src="{% static "js/jquery.stellar.min.js" %}></script>
-<script src="{% static "js/bootstrap.min.js" %}></script>
-</body>
-
-</html>
