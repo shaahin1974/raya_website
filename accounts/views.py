@@ -8,11 +8,11 @@ def register(request):
         # Get from values
         username = request.POST['username']
         email = request.POST['email']
-        password1 = request.POST['password1']
+        password = request.POST['password']
         password2 = request.POST['password2']
 
         # checks password matches
-        if password1 == password2:
+        if password == password2:
             # check username
             if User.objects.filter(username=username).exists():
                 messages.error(request, 'نام کاربری موجود میباشد')
@@ -23,7 +23,7 @@ def register(request):
                     return redirect('register')
                 else:
                     # look good
-                    user = User.objects.create_user(username=username,password=password1,
+                    user = User.objects.create_user(username=username, password=password,
                                                     email=email)
                     # login after register
                     # auth.login(request, user)
@@ -40,4 +40,23 @@ def register(request):
 
 
 def login(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = auth.authenticate(username=username, password=password)
+
+        if user is not None:
+            auth.login(request, user)
+            messages.success(request, 'خوش آمدید')
+            return redirect('dashboard')
+
+        else:
+            messages.error(request, ' کاربر یافت نشد ،لطفا ثبت نام کنید')
+            return redirect('login')
+
     return render(request, 'accounts/login.html')
+
+
+def dashboard(request):
+    return render(request, 'accounts/dashboard.html')
