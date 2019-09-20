@@ -14,8 +14,7 @@ def contact(request):
         contact = Contact(name=name, last_name=last_name,
                           email=email, phone=phone, message=message)
         contact.save()
-        messages.success(
-            request, 'Your request has been submitted, a realtor will get back to you soon')
-        return redirect('contact')
+        messages.success(request, 'ممنون از تماس شما')
+        return render(request, 'contacts/contact_us.html')
     else:
         return render(request, 'contacts/contact_us.html')

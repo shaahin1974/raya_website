@@ -284,4 +284,8 @@ windows.on('scroll', function() {
     
 
 
-})(jQuery); 
+})(jQuery);
+
+setTimeout(function () {
+    $('#message').fadeOut('slow');
+}, 3000);
