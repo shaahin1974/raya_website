@@ -6,11 +6,11 @@
         <div class="container">
             <div class="row">
 
-                <div class=" col-md-5 col-sm-5" style="margin-top: 10px">
+                <div class="col-lg-5" style="margin-top: 10px">
                     {% if user.is_authenticated %}
                         <a href="{% url 'dashboard' %}" class="btn btn-primary" role="button">داشبورد </a>
                         {{ user.username }} خوش آمدید
-                        <li class="col-md-5 col-sm-5">
+                        <li class="col-lg-5">
                             <a style="background-color: orange" href="javascript:{document.getElementById('logout').submit()}"
                                class="btn btn-primary">خروج
                             </a>
@@ -27,12 +27,12 @@
                     {% endif %}
                 </div>
 
-                <div class=" col-md-4 col-sm-4" style="margin-top: 10px; margin-left: auto">
+                <div class="col-6" style="margin-top: 10px; margin-left: auto">
                     <div class="top-bar-right">
                         <h4 style="color: #2e6da4">شرکت رایان اندیش یگانه آریا</h4>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-3">
+                <div class="col-5">
                     <div class="top-bar-left">
                         <ul>
                             <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
