@@ -89,6 +89,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+GOOGLE_RECAPTCHA_SECRET_KEY = '6LfDprkUAAAAAHSMOjJl0uqhFt1exHKJLHOvv84y'
+
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
@@ -123,6 +125,7 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'Danger'
 }
+
 
 try:
     from .local_settings import *
